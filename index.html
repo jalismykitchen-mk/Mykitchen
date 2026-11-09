@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#b51224">
+<title>EXPO 2026 | Staff Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar"><div class="brand"><span class="brand-mark">T</span><span>TILOTTOMA <small>EXPO 2026</small></span></div><span class="top-tag">STAFF CONNECT</span></header>
+<main>
+<section id="profile" class="profile-wrap" hidden>
+  <div class="cover"><span class="cover-label">EXPO 2026 · MEET OUR TEAM</span><div class="cover-orbit"></div></div>
+  <article class="profile-card">
+    <div class="avatar" id="avatar">S</div>
+    <div class="eyebrow">OFFICIAL STAFF PROFILE</div>
+    <h1 id="name">Staff Name</h1>
+    <p class="designation" id="designation"></p>
+    <div class="rule"></div>
+    <div class="detail"><span class="detail-icon">▦</span><div><small>COMPANY / WORKPLACE</small><strong id="workplace"></strong></div></div>
+    <div class="detail"><span class="detail-icon">☎</span><div><small>PHONE NUMBER</small><strong id="phone"></strong></div></div>
+    <a class="whatsapp" id="whatsapp" href="#" target="_blank" rel="noopener"><span class="wa-icon">◉</span> Chat on WhatsApp <span class="wa-arrow">↗</span></a>
+    <p class="footnote">Scan · Connect · Discover</p>
+  </article>
+</section>
+<section id="not-found" class="not-found" hidden><div class="nf-icon">?</div><h1>Profile not found</h1><p>Please scan the QR code provided by the staff member.</p></section>
+<section id="directory" class="directory">
+  <div class="directory-head"><p class="eyebrow">WELCOME TO</p><h1>EXPO 2026<br><span>STAFF DIRECTORY</span></h1><p>Meet our team and connect directly.</p><input id="search" type="search" placeholder="Search staff name or designation…"></div>
+  <div id="staff-list" class="staff-list"></div>
+  <p class="footnote">TILOTTOMA · EXPO 2026</p>
+</section>
+</main>
+<footer>© 2026 Tilottoma · EXPO Staff Connect</footer>
+<script src="app.js"></script>
+</body></html>
